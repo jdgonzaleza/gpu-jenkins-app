@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'phoenixloka/unstructured_data'
-      args '--gpu all'
+      args '--gpus all'
     }
 
   }
