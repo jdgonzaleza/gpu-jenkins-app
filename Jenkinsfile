@@ -9,7 +9,6 @@ pipeline {
   stages {
     stage('testing') {
       steps {
-        sh 'pip3 install pytest --user'
         sh 'pytest .'
       }
     }
